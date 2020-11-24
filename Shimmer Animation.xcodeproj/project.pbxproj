@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0A7FA3256D69D000933370 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A7FA2256D69D000933370 /* Home.swift */; };
+		9F0A7FA7256D69E800933370 /* CardShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A7FA6256D69E800933370 /* CardShimmer.swift */; };
+		9F0A7FAA256D6A0000933370 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A7FA9256D6A0000933370 /* CellView.swift */; };
+		9F0A7FAD256D6A1700933370 /* HomeTextShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A7FAC256D6A1700933370 /* HomeTextShimmer.swift */; };
 		9F319D8D256D592F0024A908 /* Shimmer_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F319D8C256D592F0024A908 /* Shimmer_AnimationApp.swift */; };
 		9F319D8F256D592F0024A908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F319D8E256D592F0024A908 /* ContentView.swift */; };
 		9F319D91256D59310024A908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F319D90256D59310024A908 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F0A7FA2256D69D000933370 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9F0A7FA6256D69E800933370 /* CardShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShimmer.swift; sourceTree = "<group>"; };
+		9F0A7FA9256D6A0000933370 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		9F0A7FAC256D6A1700933370 /* HomeTextShimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTextShimmer.swift; sourceTree = "<group>"; };
 		9F319D89256D592F0024A908 /* Shimmer Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shimmer Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F319D8C256D592F0024A908 /* Shimmer_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer_AnimationApp.swift; sourceTree = "<group>"; };
 		9F319D8E256D592F0024A908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +41,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0A7F9F256D69B200933370 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9F319D8E256D592F0024A908 /* ContentView.swift */,
+				9F0A7FA2256D69D000933370 /* Home.swift */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		9F0A7FA0256D69B900933370 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9F0A7FA6256D69E800933370 /* CardShimmer.swift */,
+				9F0A7FA9256D6A0000933370 /* CellView.swift */,
+				9F0A7FAC256D6A1700933370 /* HomeTextShimmer.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		9F319D80256D592F0024A908 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				9F319D8C256D592F0024A908 /* Shimmer_AnimationApp.swift */,
-				9F319D8E256D592F0024A908 /* ContentView.swift */,
+				9F0A7FA0256D69B900933370 /* view */,
+				9F0A7F9F256D69B200933370 /* scenes */,
 				9F319D90256D59310024A908 /* Assets.xcassets */,
 				9F319D95256D59310024A908 /* Info.plist */,
 				9F319D92256D59310024A908 /* Preview Content */,
@@ -139,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F319D8F256D592F0024A908 /* ContentView.swift in Sources */,
+				9F0A7FAA256D6A0000933370 /* CellView.swift in Sources */,
+				9F0A7FA3256D69D000933370 /* Home.swift in Sources */,
+				9F0A7FAD256D6A1700933370 /* HomeTextShimmer.swift in Sources */,
 				9F319D8D256D592F0024A908 /* Shimmer_AnimationApp.swift in Sources */,
+				9F0A7FA7256D69E800933370 /* CardShimmer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
