@@ -11,7 +11,7 @@ import SwiftUI
 struct Shimmer_AnimationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentsView()
         }
     }
 }
